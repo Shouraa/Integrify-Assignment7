@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+  <header>
+    <input id="addTobuyTextInput" type="text" placeholder="Enter an item...">
+    <input id="addTobuyQuantityInput" type="text" placeholder="Enter quantity...">
+    <button onclick="handlers.addTobuy()">+</button>
+  </header>
+
+  <!-- To buy List -->
+  <div class="container">
+    <h2>To Buy</h2>
+    <ul class="tobuy" id="tobuysList"></ul>
+
+    <!-- Done List -->
+    <h2>Bought</h2>
+    <ul class="done" id="boughtsList"></ul>
+  </div>
+
+  <!-- JavaScript  -->
+  <script src="main.js">
+
+  </script>
+</body>
+
+</html>
